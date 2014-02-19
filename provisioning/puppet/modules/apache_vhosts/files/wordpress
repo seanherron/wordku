@@ -1,6 +1,7 @@
 <VirtualHost *:80>
     ServerAdmin webmaster@localhost
-    ServerName 192.168.33.10
+	ServerName default
+	ServerAlias *
 
     DocumentRoot /var/www/wordpress
     <Directory />
