@@ -14,6 +14,9 @@
  * @package WordPress
  */
 
+/* Multisite */
+define( 'WP_ALLOW_MULTISITE', true );
+
 // ** Heroku Postgres settings - from Heroku Environment ** //
 $db = parse_url($_ENV["DATABASE_URL"]);
 
